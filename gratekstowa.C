@@ -29,7 +29,7 @@ for (int i = 0; i < len; i=i+1)
     }   
         }
 if(_kbhit() != 1){          // czy przycisk jest wcisniety jezeli tak to zwraca 1 
-sleep(); }
+Sleep(50); }
 
 
 }
